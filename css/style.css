@@ -16,6 +16,10 @@
     margin: 0px auto;
 }
 
+.white-font {
+    color: white;
+}
+
 
 /*header*/
 
@@ -97,5 +101,90 @@ main section banner .banner-container img {
 
 footer {
     background-color: black;
-    height: 100px;
+}
+
+footer .wrap {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px 0px;
+}
+
+footer .box-lienlac {
+    border: 1px solid white;
+    position: relative;
+    margin: 10px;
+}
+
+footer .box-lienlac span {
+    color: white;
+    position: absolute;
+    top: -15px;
+    left: 15px;
+    background-color: black;
+    text-transform: uppercase;
+    padding: 0px 10px;
+    font-weight: 300;
+}
+
+footer .box-lienlac ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .box-lienlac ul li a i {
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+}
+
+footer .box-lienlac ul li a .youtube {
+    color: red;
+}
+
+footer .box-lienlac ul li a .facebook {
+    color: rgb(65, 65, 240);
+}
+
+footer .box-lienlac ul li a .insta {
+    color: plum;
+}
+
+footer div h4 {
+    color: white;
+    text-align: center;
+}
+
+footer div h4 a {
+    color: aqua;
+}
+
+footer .thongtinlienlac {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 111px;
+}
+
+footer div h2 {
+    text-transform: uppercase;
+    color: white;
+}
+
+footer .group-btn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+footer .group-btn .btn {
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    line-height: 50px;
+    background-color: rgb(65, 65, 65);
+    margin-right: 20px;
+}
+
+footer .group-btn .btn:hover {
+    cursor: pointer;
+    background-color: rgb(104, 104, 104);
 }

@@ -193,3 +193,42 @@ footer .group-btn .btn:hover {
     cursor: pointer;
     background-color: rgb(104, 104, 104);
 }
+
+.login-now {
+    display: inline-block;
+    background-color: rgb(55, 55, 233);
+    border-radius: 100%;
+    position: fixed;
+    top: 90%;
+    left: 95%;
+}
+
+.login-now h4 a:hover span {
+    display: inline-block;
+}
+
+.login-now h4 a i {
+    padding: 10px;
+    font-size: 22px;
+}
+
+.login-now h4 a span {
+    display: none;
+    border-radius: 22px;
+    position: absolute;
+    top: -74px;
+    left: -70px;
+    background-color: rgb(55, 55, 233);
+    padding: 20px;
+}
+
+#triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid rgb(55, 55, 233);
+    position: absolute;
+    top: 55px;
+    left: 75px;
+}

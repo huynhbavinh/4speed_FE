@@ -5,11 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Css -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slide.css">
     <!-- Font chữ -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap" rel="stylesheet">
+    <!-- JavaScript -->
     <title>4Speed-Know your bike, Control your speed</title>
 </head>
 
@@ -41,7 +44,7 @@
                         <a href="">Lái xe an toàn</a>
                     </li>
                 </ul>
-                <ul class="menu-sevice">
+                <ul class="menu-service">
                     <li>
                         <a href="">Discover</a>
                     </li>
@@ -67,12 +70,56 @@
     <main>
         <section>
             <banner>
-                <div class="banner-container">
-                    <img src="img/banner/r1Yamaha.jpg" alt="Yamaha R1 2020">
+                <div class="slideshow-container">
+                    <div class="mySlides fade">
+                        <div class="numbertext">1 / 4</div>
+                        <div class="banner-container">
+                            <img src="img/banner/r1Yamaha.jpg" alt="Yamaha R1 2020">
+                        </div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">2 / 4</div>
+                        <div class="banner-container">
+                            <img src="img/banner/bmwS1000rr.jpg" alt="BMW S1000rr 2020">
+                        </div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">3 / 4</div>
+                        <div class="banner-container">
+                            <img src="img/banner/hondaCBR1000rrr.jpg" alt="Honda CBR1000rrr 2020">
+                        </div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">4 / 4</div>
+                        <div class="banner-container">
+                            <img src="img/banner/v4ducati.jpg" alt="Ducati v4 2020">
+                        </div>
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+
+                <div class="position-slide" style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
                 </div>
             </banner>
         </section>
+        <footer>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, consequuntur exercitationem! Obcaecati ipsum ab excepturi corrupti odio, voluptatem explicabo esse dicta repudiandae deserunt accusamus natus aut, doloribus, doloremque reprehenderit
+                    nesciunt.
+                </p>
+            </div>
+        </footer>
     </main>
 </body>
+<script src="js/slideShow.js"></script>
 
 </html>

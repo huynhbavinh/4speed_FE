@@ -6,6 +6,7 @@
     list-style: none;
     font-family: 'Roboto Slab', serif;
     color: black;
+    scroll-behavior: smooth;
 }
 
 html {

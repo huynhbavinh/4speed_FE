@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto Slab', serif;
+    color: black;
+}
+
+
+/*common propertive*/
+
+.wrap {
+    max-width: 1150px;
+    margin: 0px auto;
+}
+
+
+/*header*/
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(253, 253, 253, 0.8);
+}
+
+header menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+header menu .menu-logo .logo-container {
+    display: inline-block;
+    max-width: 100%;
+}
+
+header menu .menu-content {
+    text-align: end;
+}
+
+header menu .menu-logo .logo-container img {
+    display: block;
+    width: 100%;
+}
+
+header menu .menu-content .menu-about-us,
+.menu-sevice {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header menu .menu-content .menu-about-us li,
+.menu-sevice li {
+    margin: 10px 10px;
+}
+
+.menu-sevice li {
+    border-right: 2px solid black;
+    line-height: 10px;
+    color: black;
+}
+
+header menu .menu-content .menu-about-us li:hover a,
+.menu-sevice li:hover a {
+    color: rgb(172, 166, 166);
+}
+
+header menu .menu-content .menu-about-us li a {
+    font-weight: 350;
+}
+
+header menu .menu-content .menu-sevice li a {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px 15px;
+}
+
+
+/*main*/
+
+main section banner .banner-container {
+    display: inline-block;
+    width: 100%;
+}
+
+main section banner .banner-container img {
+    display: block;
+    width: 100%;
+}

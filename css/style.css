@@ -91,12 +91,12 @@ header menu .menu-content .menu-service li a {
 
 /*main*/
 
-main section banner .banner-container {
+main section .banner .banner-container {
     display: inline-block;
     width: 100%;
 }
 
-main section banner .banner-container img {
+main section .banner .banner-container img {
     display: block;
     width: 100%;
 }

@@ -112,3 +112,7 @@ main section .productContent .cardProductContainer {
 .product-links a:hover {
     color: #fbb72c;
 }
+
+.product-links a .fa-heart:hover {
+    color: red;
+}

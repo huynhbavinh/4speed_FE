@@ -73,6 +73,7 @@ table td {
     align-items: center;
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 20px;
+    position: relative;
 }
 
 .circle-avt {
@@ -89,4 +90,16 @@ table td {
 .comment-content h4,
 p {
     margin-bottom: 10px;
+}
+
+.like-comment {
+    position: absolute;
+    top: 90px;
+    left: 696px;
+    text-align: center;
+}
+
+.form {
+    width: 800px;
+    margin: 10px auto;
 }
